@@ -1,8 +1,11 @@
 @font-face{
-    font-family: 'naBrush';
-    src:url("../fonts/NANUMGOTHICLIGHT.tff");
-    
+    src:url("C:/Users/cjfgh/AppData/Local/Microsoft/Windows/Fonts/NanumBarunGothic.ttf");
+    font-family:'naBrush';
+
 }
 h1{
-    font-family: "naBrush";
+    font-family:'naBrush';
+}
+dl{
+    font-family:'naBrush';
 }
