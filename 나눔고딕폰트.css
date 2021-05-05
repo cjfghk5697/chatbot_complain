@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'naBrush';
+    src:url("../fonts/NANUMGOTHICLIGHT.tff");
+    
+}
+h1{
+    font-family: "naBrush";
+}
