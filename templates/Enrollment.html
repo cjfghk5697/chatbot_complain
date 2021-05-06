@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linc+</title>
+    <link href="../example/나눔고딕폰트.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>레시피 등록</h1>
+    <style>
+        #topMenu .menuLink {
+            width: auto; height:auto;
+            text-decoration:none;
+            color: black; 
+            display: block;
+            width: 450px;
+            font-size: 15px;
+            font-weight: bold;
+ 
+        }         
+    </style>
+        <nav id="topMenu">
+                <ul>
+                    <li><a class="menuLink" href="../templates/Enrollment.html">등록</a></li>
+                    <li><a class="menuLink" href="../templates/purchase.html">구매</a></li>
+                    <li><a class="menuLink" href="../templates/question.html">문의</a></li>
+                </ul>
+        </nav>
+        <br>
+    <form>
+        <input id="rect" type="submit" name="submit" value="제출"/>
+        <input id="rect" type="reset" name="reset" value="초기화"/>
+        <input id="rect" type="button" name="ok" onclick="alert('등록 완료')" value="완료"/>
+    </form>
+</body>
+</html>

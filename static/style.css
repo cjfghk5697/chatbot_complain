@@ -1,0 +1,29 @@
+.rect{
+    float:left;
+    background-color: blue;
+    border: 3px solid black;
+
+}
+#topMenu {
+    width: auto; height:auto;
+    height: 20px;
+    width: 1500px;
+    float: right;
+} 
+#topMenu ul li {
+    width: auto; height:auto;
+    list-style: none;
+    color: black;
+    background-color: white;
+    float: left;
+    line-height: 50px; 
+    vertical-align: middle;
+    text-align: center;
+    border: 3px solid black;
+} 
+
+#topMenu .menuLink:hover {
+    color: black;
+    background-color: #4d4d4d;
+} 
+
