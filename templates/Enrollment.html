@@ -36,5 +36,52 @@
     <div class="wrap">
        <button class="button">등록</button>
     </div>
+
+    <form id="form1">
+        <input type='file' id="uploadImage"/>
+        <div id="preview">
+            <img id="imagePreview" src="#" alt="Preview upload images"/>
+
+        </div>
+    
+    </form>
+    <!-- Jquery 다운 받아 사용하는게 귀찮으면 아래 처럼 ㅎㅎ -->
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+function readUploadImage( inputObject ) {
+	if ( window.File && window.FileReader ) {
+
+		if ( inputObject.files && inputObject.files[0]) {
+			if ( !(/image/i).test(inputObject.files[0].type ) ){
+				alert("이미지 파일");
+				return false;
+			}
+			var reader = new FileReader();
+			reader.onload = function (e) {
+				$('#imagePreview').attr('src', e.target.result);
+			}
+			reader.readAsDataURL(inputObject.files[0]);
+		}
+	} else {
+		alert( "브라우저 업데이트 피룡함");
+	}
+}
+
+$("#uploadImage").change(function(){
+
+    readUploadImage(this);
+
+});
+
+
+
+</script>
+
+
+
+
 </body>
 </html>
