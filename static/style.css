@@ -27,9 +27,7 @@ div.button input{
     float: right;
 } 
 #topMenu ul li {
-    
-    width: auto; height:auto;
-    list-style: none;
+        list-style: none;
     color: black;
     background-color: white;
     float: left;
@@ -40,7 +38,6 @@ div.button input{
 } 
 
 #topMenu .menuLink:hover {
-    width: auto; height:auto;
     color: black;
     background-color: #4d4d4d;
 } 
