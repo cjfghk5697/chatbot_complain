@@ -1,3 +1,19 @@
+div.button{
+    width: auto; height:auto;
+
+    margin:auto;
+    width:20%;
+    float:left;
+    position:  absolute;
+    top:40%;
+}
+div.button input{
+    width: auto; height:auto;
+    padding:5px;
+    width:100%;
+    font-size:18px;
+}
+
 .rect{
     float:left;
     background-color: blue;
@@ -6,11 +22,12 @@
 }
 #topMenu {
     width: auto; height:auto;
-    height: 20px;
-    width: 1500px;
+    height: 10%;
+    width: 100%;
     float: right;
 } 
 #topMenu ul li {
+    
     width: auto; height:auto;
     list-style: none;
     color: black;
@@ -23,7 +40,10 @@
 } 
 
 #topMenu .menuLink:hover {
+    width: auto; height:auto;
     color: black;
     background-color: #4d4d4d;
 } 
+
+
 
