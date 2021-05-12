@@ -37,18 +37,17 @@
        <button class="button">등록</button>
     </div>
 
-    <form id="form1">
+    <!--<form id="form1">
         <input type='file' id="uploadImage"/>
         <div id="preview">
             <img id="imagePreview" src="#" alt="Preview upload images"/>
 
         </div>
     
-    </form>
-    <!-- Jquery 다운 받아 사용하는게 귀찮으면 아래 처럼 ㅎㅎ -->
+    </form>-->
+    <!-- Jquery 다운 -->
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
 <script type="text/javascript">
 
 function readUploadImage( inputObject ) {
@@ -80,6 +79,48 @@ $("#uploadImage").change(function(){
 
 </script>
 
+<fieldset>
+    <legend>등록</legend>
+    <form action="postDataWithFile.php" method="post" enctype="multipart/form-data">
+        <p>
+            <label>제목 : </label>
+            <input type="text" name="name">
+        </p>
+
+        <p>
+            <label>내용 : </label>
+            <input type="text" name="msg">
+        </p>
+        <p>
+            <label>가격 : </label>
+            <input type="text" name="price">
+        </p>
+
+        <p>
+            <label>Image File : </label>
+            <form id="form1">
+                <input type='file' id="uploadImage"/>
+                <div id="preview">
+                    <img id="imagePreview" src="#" alt="Preview upload images"/>
+        
+                </div>
+            <!--<input type="file" name="upload">-->
+        </p>
+
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="cancel">
+        </p>
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Load Data</legend>
+    <form action="loadDataFromDB.php" method="post" enctype="multipart/form-data">
+        <input type="submit" value="load">
+        
+    </form>
+</fieldset>
 
 
 
