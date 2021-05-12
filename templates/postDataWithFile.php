@@ -41,7 +41,7 @@
  
     //php에서 Database서버와 연동하기
     //MySQL DB에 접속하기!!
-    $conn=mysqli_connect("cjfghk5697.dothome.co.kr","cjfghk5697","han020615!","cjfghk5697"); //DB 서버 주소, DB 접속 아이디, DB접속 비번, DB명 (파일명)
+    $conn=mysqli_connect("localhost","cjfghk5697","han020615!","cjfghk5697"); //DB 서버 주소, DB 접속 아이디, DB접속 비번, DB명 (파일명)
  
     //한글 깨짐 방지
     mysqli_query($conn,"set names utf8");
