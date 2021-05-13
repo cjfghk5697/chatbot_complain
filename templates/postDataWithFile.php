@@ -31,7 +31,9 @@
     $dstName= $path . $fileName;
     $result=move_uploaded_file($tmpName, $dstName);
     if($result) echo "success upload file.";
-    else echo "fail upload file";
+    else echo "fail upload file"; echo("<script>location.href='../Linc_founded_competition/index.html';</script>"); 
+    
+    
  
     //Data 저장하는 날짜와 시간
     $now= date('Y-m-d h:m:s');
