@@ -9,7 +9,7 @@ Competition_2021
   <dd>js</dd>
   <dd>php</dd>
   <dd>python</dd>
-
+</dl>
 #데이터 경로
 data
     static
