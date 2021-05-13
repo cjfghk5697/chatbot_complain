@@ -4,11 +4,7 @@ Competition_2021
 <p> 아주대 내 창업 아이디어 제출 공모전 관련 파일입니다. 2021년 5월 13일 기준으로 작성되었습니다.<br> 이 파일은 기획 내용을 실현시키는 프로토타입 파일입니다. 링크는 cjfghk5697.dothome.co.kr입니다.</p>
 <dl>
   <dt>사용 언어</dt>
-  <dd>html5</dd>
-  <dd>css</dd>
-  <dd>js</dd>
-  <dd>php</dd>
-  <dd>python</dd>
+  <dd>html5, css, javascript, python</dd>
 </dl>
 
 # 데이터 경로
