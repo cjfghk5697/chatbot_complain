@@ -10,17 +10,18 @@ Competition_2021
   <dd>php</dd>
   <dd>python</dd>
 </dl>
+
 # 데이터 경로
-data
-    static
-      └── style.css
-templates
-  ├── Enrollment.html
-  ├── image.js
-  ├── postDataWithFile.php
-  ├── purchase.html
-  └── question.html
-index.html
+data<br>
+    static<br>
+      └── style.css<br>
+templates<br>
+  ├── Enrollment.html<br>
+  ├── image.js<br>
+  ├── postDataWithFile.php<br>
+  ├── purchase.html<br>
+  └── question.html<br>
+index.html<br>
 
 # 추천 시스템
 <p>NLP기능을 넣어 사람마다 특성에 맞는 물건을 추천할 것입니다. 아직 구현 단계로 파이썬 파일이 없습니다.</p>
