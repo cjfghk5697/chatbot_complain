@@ -50,66 +50,35 @@
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript">
 
-function readUploadImage( inputObject ) {
-	if ( window.File && window.FileReader ) {
-
-		if ( inputObject.files && inputObject.files[0]) {
-			if ( !(/image/i).test(inputObject.files[0].type ) ){
-				alert("이미지 파일");
-				return false;
-			}
-			var reader = new FileReader();
-			reader.onload = function (e) {
-				$('#imagePreview').attr('src', e.target.result);
-			}
-			reader.readAsDataURL(inputObject.files[0]);
-		}
-	} else {
-		alert( "브라우저 업데이트 피룡함");
-	}
-}
-
-$("#uploadImage").change(function(){
-
-    readUploadImage(this);
-
-});
 
 
 
 </script>
 
 <fieldset>
-    <legend>등록</legend>
+    <legend>POST METHOD REQUEST Data with File</legend>
     <form action="postDataWithFile.php" method="post" enctype="multipart/form-data">
         <p>
-            <label>제목 : </label>
+            <label>Name : </label>
             <input type="text" name="name">
         </p>
 
         <p>
-            <label>내용 : </label>
+            <label>Message : </label>
             <input type="text" name="msg">
         </p>
-        <p>
-            <label>가격 : </label>
-            <input type="number" name="price">
-        </p>
+
         <p>
             <label>Image File : </label>
-            <form id="form1">
-                <input type='file' id="uploadImage"/>
-                <div id="preview">
-                    <img id="imagePreview" src="#" alt="Preview upload images"/>        
-                </div>
-            <!--<input type="file" name="upload">-->
+            <input type="file" name="upload">
         </p>
+
         <p>
-            <input type="submit" value="submit" >
+            <input type="submit" value="submit">
             <input type="reset" value="cancel">
         </p>
     </form>
-</fieldset>
+</fieldset>s
 
 <fieldset>
     <legend>Load Data</legend>

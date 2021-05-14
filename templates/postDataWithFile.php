@@ -4,8 +4,7 @@
  
     $name= $_POST['name'];
     $message= $_POST['msg'];
-    $price= $_POST['price'];
-
+ 
     $file= $_FILES['upload'];
     $srcName= $file['name'];
     $fileSize= $file['size'];
@@ -14,7 +13,6 @@
  
     echo "$name <br/>";
     echo "$message <br/>";
-    echo "$price <br/>";
     echo "$srcName <br/>";
     echo "$tmpName <br/>";
     echo "$fileSize <br/>";
@@ -31,9 +29,7 @@
     $dstName= $path . $fileName;
     $result=move_uploaded_file($tmpName, $dstName);
     if($result) echo "success upload file.";
-    else echo "fail upload file"; #header("Location: http://cjfghk5697.dothome.co.kr/"); 
-
-    
+    else echo "fail upload file";
  
     //Data 저장하는 날짜와 시간
     $now= date('Y-m-d h:m:s');
@@ -43,22 +39,26 @@
  
     //php에서 Database서버와 연동하기
     //MySQL DB에 접속하기!!
-    $conn=mysqli_connect("localhost","cjfghk5697","han020615!","cjfghk5697"); //DB 서버 주소, DB 접속 아이디, DB접속 비번, DB명 (파일명)
- 
+    $conn=mysqli_connect("localhost","cjfghk5697","han020615!","cjfghk5697"); //DB 서버 주소, DB 접속 아이디, DB접속 비번, DB명 (파일명) 
     //한글 깨짐 방지
     mysqli_query($conn,"set names utf8");
  
     //SQL 쿼리문 작성
-    $sql="insert into board(name,message, file, date,price) values('$name','$message','$dstName','$now','$price')";
+    $sql="insert into board(name,message, file, date) values('$name','$message','$dstName','$now')";
     $result=mysqli_query($conn,$sql);
-    
+ 
     if($result){
         echo "insert success";    
     } else{
         echo "insert fail";
+        #header("Location: http://cjfghk5697.dothome.co.kr/"); 
+
     }
  
     mysqli_close($conn);
  
 ?>
+ 
+ 
+
 
