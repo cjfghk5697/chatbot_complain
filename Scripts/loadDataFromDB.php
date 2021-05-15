@@ -4,12 +4,12 @@ header("Content-Type: text/html; charset=UTF-8");
  
 //MySQL DB에 접속하기
 $conn=mysqli_connect("localhost","cjfghk5697","han020615!","cjfghk5697");
- 
+
 //한긓깨짐 방지
 mysqli_query($conn,"set names utf8");
  
 //DB에서 데이터를 읽어오는 쿼리문
-$sql="select * from board";
+$sql="SELECT * from board";
 $result=mysqli_query($conn, $sql);
  
 //$result는 결과 데이터들을 가지고 있는 테이블(표)
