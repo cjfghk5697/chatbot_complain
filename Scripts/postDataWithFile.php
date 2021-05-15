@@ -54,11 +54,11 @@
         echo mysqli_error($conn);
       }
     if($result){
-        echo "insert success";    
+        echo "insert success"; 
+        header("Location: http://cjfghk5697.dothome.co.kr/"); 
+   
     } else{
         echo "insert fail";
-        #header("Location: http://cjfghk5697.dothome.co.kr/"); 
-
     }
  
     mysqli_close($conn);
