@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <h1>레시피 등록</h1>
     <style>
         #topMenu .menuLink {
             width: auto; height:auto;
@@ -23,19 +22,23 @@
  
         }         
     </style>
-    <nav id="topMenu">
-        <ul>
-            <li><a class="menuLink" href="../templates/Enrollment.html">등록</a></li>
-            <li><a class="menuLink" href="../templates/purchase.html">구매</a></li>
-            <li><a class="menuLink" href="../templates/question.html">문의</a></li>
-        </ul>
-    </nav>
 
+    <div id="topMenu">
+        <div id="title">관리페이지</div>
+        <nav>
+            <ul>
+                <li><a class="menuLink" href="../templates/Enrollment.html">등록</a></li>
+                <li><a class="menuLink" href="../templates/purchase.html">구매</a></li>
+                <li><a class="menuLink" href="../templates/manage.html">문의</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
     <fieldset>
         <legend>Load Data</legend>
         <form action="loadDataFromDB.php" method="post" enctype="multipart/form-data">
             <input type="submit" value="load">
-            
         </form>
     </fieldset>
 </body>

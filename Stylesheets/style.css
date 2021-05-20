@@ -1,8 +1,12 @@
 
-html, body {
-    height: 100%;
-  }
-  
+
+  #info{
+    margin: 30%;
+    margin-top: 5%;
+    width:40%;
+    height:50%
+    
+}
   .wrap {
     height: 100%;
     position: absolute;
@@ -35,7 +39,14 @@ html, body {
     color: #fff;
     transform: translateY(-7px);
   }
-
+  .on{
+    border-radius:10px;
+    width:10%;
+    height: 10%;
+    border: 1px solid green;
+    color: black;
+    background-color:white; /*duator*/
+}
 .rect{
     float:left;
     background-color: blue;
@@ -43,7 +54,6 @@ html, body {
 
 }
 #topMenu {
-    width: auto; height:auto;
     height: 10%;
     width: 100%;
     float: right;
@@ -64,5 +74,30 @@ html, body {
     background-color: #4d4d4d;
 } 
 
+#title{
+  text-align: center;
+  font-size:40px;
+  font:bold;
 
+}
+#content{
+  height:100px;
+  width:100%;
+}
+#title2{
+  font-size:30px;
+  font:bold;
+  text-align: center;
+}
+#image_todayinfo{
+  margin-top: 5%;
+  margin: 4%;
+  width:60%;
+  height:70%;
+  
+}
+#image_maininfo{
+  
+  border: 1px solid black;
 
+}

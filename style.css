@@ -1,0 +1,38 @@
+/*처음 div에 입력되어서 정보 입력칸 크기를 맞춤*/
+#info{
+    margin: 30%;
+    margin-top: 5%;
+    width:40%;
+    height:50%
+    
+}
+/*제목부분 폰트를 두껍고 중앙에 두게함.*/
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+
+}
+/*title name, content 거리 두게함*/
+.in{
+    margin-top:2%;
+    margin-buttom:2%;
+/*제목 입력칸 사이즈 조절*/
+}
+#title2{
+    width:40%;
+}
+/*내용 입력칸 크기 조절*/
+#content{
+    height:100px;
+    width:100%;
+}
+/*버튼 사이즈와 테두리, 글자 색깔 배경 색깔 결정*/
+.on{
+    border-radius:10px;
+    width:10%;
+    height: 10%;
+    border: 1px solid green;
+    color: black;
+    background-color:white; /*duator*/
+}

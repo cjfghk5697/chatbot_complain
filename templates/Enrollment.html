@@ -11,8 +11,6 @@
 </head>
 
 <body>
-
-    <h1>레시피 등록</h1>
     <style>
         #topMenu .menuLink {
             width: auto; height:auto;
@@ -25,35 +23,37 @@
  
         }         
     </style>
-        <nav id="topMenu">
-                <ul>
-                    <li><a class="menuLink" href="../templates/Enrollment.html">등록</a></li>
-                    <li><a class="menuLink" href="../templates/purchase.html">구매</a></li>
-                    <li><a class="menuLink" href="../templates/question.html">문의</a></li>
-                </ul>
+    <div id="topMenu">
+        <div id="title">등록페이지</div>
+        <nav>
+            <ul>
+                <li><a class="menuLink" href="../templates/Enrollment.html">등록</a></li>
+                <li><a class="menuLink" href="../templates/purchase.html">구매</a></li>
+                <li><a class="menuLink" href="../templates/manage.html">문의</a></li>
+            </ul>
         </nav>
-        <br>
+    </div>
 
 <fieldset>
-    <legend>POST METHOD REQUEST Data with File</legend>
+    <legend>메뉴 올리기</legend>
     <form action="postDataWithFile.php" method="post" enctype="multipart/form-data">
         <p>
-            <label>Name : </label>
+            <label>이름 : </label>
             <input type="text" name="name">
         </p>
 
         <p>
-            <label>Message : </label>
-            <input type="text" name="msg" style="text-align:center; width:200px; height:50px; letter-spacing: -5px">
+            <label>내용 : </label>
+            <input id="content" type="text" name="msg" style="text-align:center; width:200px; height:50px; letter-spacing: -5px">
         </p>
 
         <p>
-            <label>Image File : </label>
+            <label>이미지 파일 : </label>
             <input type="file" name="upload">
         </p>
 
         <p>
-            <input type="submit" value="submit">
+            <button class="on" onClick="printName()">제출함</button>
             <input type="reset" value="cancel">
         </p>
     </form>
