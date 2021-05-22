@@ -97,7 +97,13 @@
   
 }
 #image_maininfo{
-  
+  display: block; margin: 0 auto;
   border: 1px solid black;
-
+  width:40%;
+  height:20%;
+}
+#food_page{
+  height: 80%;
+  width: 70%;
+  float: right;
 }
