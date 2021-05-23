@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linc+</title>
-    <link href="../example/나눔고딕폰트.css" rel="stylesheet">
+    <link href="Fonts/NanumGothic.ttf" rel="stylesheet">
     <link href="Stylesheets/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
@@ -21,31 +21,66 @@
             font-size: 15px;
             font-weight: bold;
  
-        }         
+        }   
+        @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+      
     </style>
     <div id="topMenu">
-        <div id="title">market</div>
-        <nav>
+        <div id="title" style="font-family:Nanum Gothic;"></div>
+              <nav>
             <ul>
-                <li><a class="menuLink" href="templates/Enrollment.html">등록</a></li>
-                <li><a class="menuLink" href="templates/purchase.html">구매</a></li>
-                <li><a class="menuLink" href="templates/manage.html">문의</a></li>
+                <li><a class="menuLink" style="font-family:Nanum Gothic;" href="templates/Enrollment.html">등록</a></li>
+                <li><a class="menuLink" style="font-family:Nanum Gothic;" href="templates/purchase.html">구매</a></li>
+                <li><a class="menuLink" style="font-family:Nanum Gothic;" href="templates/manage.html">문의</a></li>
             </ul>
         </nav>
     </div>
-    <hr>
-    <img id="image_maininfo" src="Images/오늘의 할인.jpg" align="center" >
-    <hr>
-    <div id="title2"> 이 상품 어때요?</div>
-    <div id="image_todayinfo">
-        <a href="templates/food.html"><img src="Images/오늘의 팔도, 전복.jpg" alt="전복요리" width="30%"></a>
-        <br>
-        <span><a>[완도] 버터 전복</a></span>
-        <br>
-        <span><a>50000원</a></span>
-    </div>
-    
 
+    
+    <hr>
+    <img id="image_maininfo"  src="Images/오늘의 할인.jpg" align="center" >
+    <hr>
+    <div id="title2" style="font-family:Nanum Gothic;"> 이 상품 어때요?</div>
+    <div id="image_todayinfo style="display: inline;">
+        <div class="thumb_goods">        
+            <a href="templates/food.html"><img src="Images/오늘의 팔도, 전복.jpg" alt="전복요리" width="30%"></a>
+        </div>
+        <div class="thumb">        
+            <span><a style="font-family:Nanum Gothic;">[완도] 버터 전복 <br> </a></span>
+            <span><a style="font-family:Nanum Gothic;">50000원</a></span>
+        </div>
+    </div>
+    <div id="image_todayinfo" style="display: inline;">
+        <div class="thumb_goods">        
+            <a href="templates/food.html"><img src="Images/간장게장.jpg" alt="간장 게장" width="30%"></a>
+        </div>
+        <div class="thumb">        
+            <span><a style="font-family:Nanum Gothic;">[진미] 간장 게장</a></span>
+            <span><a style="font-family:Nanum Gothic;;">15000원</a></span>
+        </div>
+    </div>
+    <div id="image_todayinfo" style="display: inline;">
+        <div class="thumb_goods">        
+            <a href="templates/food.html"><img src="Images/다신현미밥상.jpg" alt="현미밥상" width="30%"></a>
+        </div>
+        <div class="thumb">        
+            <span><a style="font-family:Nanum Gothic;">[이천] 현미밥상</a></span>
+            <span><a style="font-family:Nanum Gothic;">50000원</a></span>
+        </div>
+    </div>
+
+    <div id="image_todayinfo" style="display: inline;">
+        <div class="thumb_goods">        
+            <a href="templates/food.html"><img src="Images/딸기생크림케이크.jpg" alt="딸기 생크림 케이크" width="30%"></a>
+        </div>
+        <div class="thumb">        
+            <span><a style="font-family:Nanum Gothic;">[전북] 딸기 생크림 케이크</a></span>
+            <span><a style="font-family:Nanum Gothic;">12000원</a></span>
+        </div>
+    </div>   
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+<script type="text/javascript" src="js/bootstrap.js"></script>
     
 </body>
 </html>
