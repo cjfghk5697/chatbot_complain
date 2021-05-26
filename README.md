@@ -9,15 +9,37 @@ Competition_2021
 
 # 데이터 경로
 data<br>
-    static<br>
-      └── style.css<br>
 templates<br>
   ├── Enrollment.html<br>
-  ├── image.js<br>
-  ├── postDataWithFile.php<br>
-  ├── purchase.html<br>
-  └── question.html<br>
+  ├── food.html<br>
+  ├── manage.html<br>
+  └── purchase.html<br>
+ 
+  css<br>
+  └── bootstrap<br>
+  Fonts<br>
+  ├── NanumGothic.tff<br>
+  ├── NanumGothicBold.tff<br>
+  ├── NanumGothicExtraBold.tff<br>
+  └── NanumGothicLight.tff<br>
+  images<br>
+  ├── 간장게장.jpg<br>
+  ├── 다신현미밥상.jpg<br>
+  ├── 딸기생크림케이크.jpg<br>
+  ├── 전복.jpg<br>
+  └── 할인.jpg<br>
+  js<br>
+  └── bootstrap<br>
+  Media<br>
+  
+  scripts<br>
+  ├── upload<br>
+  ├── loadDataFromDB.php<br>
+  └── postDataWithFile.php<br>
+  stylesheets<br>
+  └── style.css<br>
 index.html<br>
 
 # 추천 시스템
-<p>NLP기능을 넣어 사람마다 특성에 맞는 물건을 추천할 것입니다. 아직 구현 단계로 파이썬 파일이 없습니다.</p>
+<p></p>
+
