@@ -11,8 +11,14 @@ function login(){
     return ID + Ps;
 }
 
+function newPage(){
+    window.location.href = 'login.html';
+}
+
 var alterName=function(){
     var realIdPs=login();
     alert(realIdPs);
 }
+
+
 

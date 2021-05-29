@@ -1,6 +1,30 @@
 
+/*index.html id*/
+#inma{
+  text-align: center;
+  font-weight:bold;
+  font-size:50px;
+  color:black;
+}
+#inbutton1{
+  margin-top:5%;
+  width:10%;
+  height:20%;
+  margin-left:35%;
+}
+#inbutton2{
+  margin-top:5%;
+  width:10%;
+  height:20%;
+  margin-left:10%;
+}
+/*index.html class*/
+.inma{
+  margin-top:5%; 
+}
 
-/*id 샵*/
+
+/*login id 샵*/
 #login{
 
   margin-left:30%;
@@ -31,7 +55,7 @@
 
 }
 
-/*class .*/
+/*login class .*/
 .in{
   margin-top:2%;
   margin-bottom:2%;
