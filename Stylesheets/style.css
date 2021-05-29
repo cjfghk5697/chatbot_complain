@@ -7,15 +7,14 @@
   margin-top:5%; 
   width:40%;
   height:50%;
-  border:3px;
-  border-color:black;
+
 }
 
 #title{
   text-align: center;
   font-weight:bold;
   font-size:50px;
-  color:gray;
+  color:black;
 }
 
 #INIDPS{
@@ -36,4 +35,12 @@
 .in{
   margin-top:2%;
   margin-bottom:2%;
+}
+.container {
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+   background-size: cover; 
+
 }
