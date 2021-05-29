@@ -1,10 +1,12 @@
-.title{
+/*id 샵*/
+#title{
   text-align: center;
   font-weight:bold;
   font-size:50px;
 }
 
-#id{
+#INIDPS{
+  width:40%;
 
 }
 #login{
@@ -14,6 +16,15 @@
   margin-top:5%; 
 }
 
+.in{
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#button{
+  margin-top:3%;
+  margin-bottom:2%;
+}
 
 #login_box{
 
