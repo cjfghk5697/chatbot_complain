@@ -1,11 +1,40 @@
 
 /*index.html id*/
+
 #inma{
   text-align: center;
   font-weight:bold;
   font-size:50px;
-  color:black;
+  color:white;
+
+
+  /*간단하게 설명해서 첫번째 줄부터 밑에 줄까지 위, 오른쪽, 아래, 왼쪽 이다.
+
+각각 한 부분 씩 1px로 색을 주어서 테두리 처럼 만드는 것이다.
+
+당연하게도 픽셀을 높이면 굵기가 굵어진다. (1px 차이가 꽤나 커보인다)  https://ludeno-studying.tistory.com/32*/
+  text-shadow: -1px 0 #000,
+  0 1px #000,
+  1px 0 #000,
+  0 -1px #000;
 }
+
+#incon{
+  margin-top:30%;
+  margin-left:44%;;
+}
+
+#incon_write{
+  color: black;
+  font-size:15px;
+}
+
+#content{
+  text-align: center;
+  font-size:10px;
+  color:white;
+} 
+
 #inbutton1{
   margin-top:5%;
   width:10%;
@@ -46,7 +75,11 @@
   text-align: center;
   font-weight:bold;
   font-size:50px;
-  color:black;
+  color:white;
+  text-shadow: -1px 0 #000,
+  0 1px #000,
+  1px 0 #000,
+  0 -1px #000;
 }
 
 #INIDPS{
