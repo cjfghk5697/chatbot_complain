@@ -6,9 +6,9 @@ function printlogin(){
 }
 
 function login(){
-    const ID=document.getElementById('ID').value;
-    const Ps=document.getElementById('Ps').value;
-    return ID + Ps;
+    const ID=document.getElementById('id').value;
+    const Ps=document.getElementById('password').value;
+   
 }
 
 function newPage(){
