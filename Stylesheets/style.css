@@ -3,7 +3,7 @@
 
 /*이름, 전화번호, 생일*/
 #enback{
-  background-color: black  no-repeat center center fixed; 
+  background: url(../images/Gazelle.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover; 
