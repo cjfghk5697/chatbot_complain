@@ -1,4 +1,37 @@
 
+/*enrollment id*/
+
+/*이름, 전화번호, 생일*/
+#enback{
+  background-color: black  no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+}
+#Name{
+  weight:3%;
+  margin-top:4%;
+}
+#number{
+  margin-top:4%;
+
+  weight:3%;
+}
+#birth{
+  margin-top:4%;
+
+  weight:3%;
+  
+}
+/*Enrollment class*/
+
+
+
+
+
+
+
 /*index.html id*/
 
 #inma{
