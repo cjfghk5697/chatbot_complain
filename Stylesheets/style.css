@@ -9,20 +9,38 @@
   -o-background-size: cover; 
   background-size: cover; 
 }
+
 #Name{
-  weight:3%;
+  width:20%;
   margin-top:4%;
+  margin-left: 10%;
 }
 #number{
   margin-top:4%;
+  width:70%;  
+  margin-left: 10%;
 
-  weight:3%;
 }
 #birth{
   margin-top:4%;
+  width:40%;
+  margin-left: 10%;
 
-  weight:3%;
-  
+}
+
+#enID{
+  margin-top:4%;
+  width:70%;
+  margin-left: 10%;
+
+}
+
+
+#enbutton{
+  margin-top:4%;
+  margin-bottom:2%;
+  width:70%;
+  margin-left: 10%;
 }
 /*Enrollment class*/
 
