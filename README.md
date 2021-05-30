@@ -5,7 +5,8 @@
 # 데이터 경로
 data<br>
 templates<br>
-  └── login.html<br>
+├── Enrollment.html<br>
+└── login.html<br>
  
  
   css<br>
