@@ -80,17 +80,19 @@
 } 
 
 #inbutton1{
-  margin-top:5%;
-  width:10%;
+  margin-top:1%;
   height:20%;
-  margin-left:35%;
+  margin-left:73%;
+  font-size:1px;
 }
 #inbutton2{
-  margin-top:5%;
-  width:10%;
+  margin-top:1%;
   height:20%;
-  margin-left:10%;
+  margin-left:1%;
+  font-size:1px;
 }
+
+
 /*index.html class*/
 .inma{
   margin-top:5%; 
@@ -138,6 +140,10 @@
   width:60%;
   margin-left:20%;
 
+}
+
+#inform{
+  font-size:4px;
 }
 
 /*login class .*/
