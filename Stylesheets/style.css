@@ -106,6 +106,16 @@
 
 }
 
+.incontent{
+  float:center;
+  border: 1px solid #dae1e6;
+  width: 45%;
+  margin-left:27.5%;
+
+}
+
+
+
 
 /*login id 샵*/
 #login{
@@ -142,8 +152,11 @@
 
 }
 
-#inform{
-  font-size:4px;
+#incontent{
+  font-size:15px;
+  color:white;
+  word-break:break-all;
+  
 }
 
 /*login class .*/
