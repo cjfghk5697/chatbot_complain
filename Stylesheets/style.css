@@ -1,3 +1,41 @@
+textarea{
+  resize: none;
+}
+/*모든곳 적용*/
+.back{
+  float:left;
+  font-size:27px;
+  color:white;
+  font-style:bold;
+}
+
+
+
+
+/*suggetion id*/
+#suright{
+  margin-left:1%;
+}
+#suright2{
+  margin-left:1%;
+  width:20%;
+}
+#suright3{
+  margin-left:1%;
+  height:200px;
+  width:80%;
+}
+#suright4{
+  margin-left:1%;
+  color:white;
+}
+/*suggetion class*/
+.sulabel{
+  font-size:17px;
+  color:white;
+}
+
+
 
 /*enrollment id*/
 
@@ -64,8 +102,8 @@
 }
 
 #incon{
-  margin-top:30%;
-  margin-left:44%;;
+  margin-top:20%;
+  text-align:center;
 }
 
 #incon_write{
@@ -80,18 +118,22 @@
 } 
 
 #inbutton1{
-  margin-top:1%;
-  height:20%;
-  margin-left:73%;
-  font-size:1px;
+  margin-top: 1%;
+  float: right;
+  font-size: 1px;
+  margin-left: 1%;
+  margin-right: 2%;
 }
 #inbutton2{
+  float:right;
   margin-top:1%;
   height:20%;
-  margin-left:1%;
   font-size:1px;
 }
-
+#insuggetion{
+  font-size:24px;
+  width:31%;
+}
 
 /*index.html class*/
 .inma{
@@ -107,13 +149,17 @@
 }
 
 .incontent{
-  float:center;
   border: 1px solid #dae1e6;
-  width: 45%;
-  margin-left:27.5%;
+  margin-left: 3%;
+  text-align: center;
+  margin-right: 3%;
 
 }
 
+.insuggetion{
+  text-align:center;
+  margin-top:10%;
+}
 
 
 
