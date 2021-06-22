@@ -13,32 +13,39 @@
 <body class="incontainer">
     <button class="btn btn-primary" id="inbutton1" onclick="location.href='/templates/Enrollment.html'">회원가입</button>
     <button tpye="button" class="btn btn-primary" id="inbutton2" onclick="location.href='/templates/login.html'">로그인</button>
-    <p onclick="location.href='/index.html'" class="back">AjouChat</p>
-    <fieldset class="col-md-12">       
-        <div class="inma">
-            <div id="inma">건의사항</div>
+
+
+
+    <fieldset class="col-md-12" id="incontent">       
+        <div>
+            <div id="inma">건의하기</div>
         </div>
+        <div id="sublock">
         <form action="/Scripts/postDataWithFile.php" method="post" enctype="multipart/form-data">
             <p>
-                <label class="sulabel">이름</label>
-                <input id="suright2"type="text" class="form-control" placeholder="이름"name="name">
+                <input type="text" class="form-control is-invalid" placeholder="제목"name="name">
+                <div class="invalid-feedback">
+                    제목 작성 필수
+                </div>
             </p>
             <p>
-                <label class="sulabel">건의 내용 </label>
-                <textarea id="suright3" type="text"  class="form-control" placeholder="내용 입력" name="msg" ></textarea>
+                <textarea id="suright3" type="text"  class="form-control is-invalid" name="msg"  placeholde="건의사항"></textarea>
+                <div class="invalid-feedback">
+                    건의 사항 작성 필수
+                </div>
             </p>
-
+        <div class="custom-file">
             <p>
-                <label class="sulabel">문제 이미지 파일 </label>
-                <br>
-                <input id="suright4" type="file" class="btn vtn-info" name="upload">
+                <input type="file"class="custom-file-input" id="validatedCustomFile" required name="upload">
+                <label class="custom-file-label" for="validatedCustomFile"> 파일 첨부</label>
             </p>
-
+        </div>
             <p>
-                <input id="suright" type="submit" class="btn vtn-info" value="제출">
-                <input id="suright" type="reset" class="btn vtn-info" value="다시작성">
+                <input  id="subutt" type="submit" class="btn btn-primary" value="제출">
+                <input id="subutt"type="reset" class="btn vtn-info" value="다시작성">
             </p>
         </form>
+        </div>
     </fieldset>
 
      
